@@ -1,0 +1,8 @@
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.core\bin\Debug\netcoreapp3.1\AzureKeyManager.core.deps.json
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.core\bin\Debug\netcoreapp3.1\AzureKeyManager.core.dll
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.core\bin\Debug\netcoreapp3.1\AzureKeyManager.core.pdb
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.core\obj\Debug\netcoreapp3.1\AzureKeyManager.core.csproj.CoreCompileInputs.cache
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.core\obj\Debug\netcoreapp3.1\AzureKeyManager.core.AssemblyInfoInputs.cache
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.core\obj\Debug\netcoreapp3.1\AzureKeyManager.core.AssemblyInfo.cs
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.core\obj\Debug\netcoreapp3.1\AzureKeyManager.core.dll
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.core\obj\Debug\netcoreapp3.1\AzureKeyManager.core.pdb

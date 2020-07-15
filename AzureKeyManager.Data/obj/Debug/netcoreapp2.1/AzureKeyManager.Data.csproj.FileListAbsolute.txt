@@ -1,0 +1,12 @@
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\bin\Debug\netcoreapp2.1\AzureKeyManager.Data.deps.json
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\bin\Debug\netcoreapp2.1\AzureKeyManager.Data.dll
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\bin\Debug\netcoreapp2.1\AzureKeyManager.Data.pdb
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\bin\Debug\netcoreapp2.1\AzureKeyManager.core.dll
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\bin\Debug\netcoreapp2.1\AzureKeyManager.core.pdb
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp2.1\AzureKeyManager.Data.csprojAssemblyReference.cache
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp2.1\AzureKeyManager.Data.csproj.CoreCompileInputs.cache
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp2.1\AzureKeyManager.Data.AssemblyInfoInputs.cache
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp2.1\AzureKeyManager.Data.AssemblyInfo.cs
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp2.1\AzureKeyManager.Data.csproj.CopyComplete
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp2.1\AzureKeyManager.Data.dll
+D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp2.1\AzureKeyManager.Data.pdb

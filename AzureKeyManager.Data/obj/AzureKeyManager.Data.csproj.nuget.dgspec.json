@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.Data\\AzureKeyManager.Data.csproj": {}
+  },
+  "projects": {
+    "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj",
+        "projectName": "AzureKeyManager.core",
+        "projectPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj",
+        "packagesPath": "C:\\Users\\suraj.aher\\.nuget\\packages\\",
+        "outputPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\suraj.aher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.Data\\AzureKeyManager.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.Data\\AzureKeyManager.Data.csproj",
+        "projectName": "AzureKeyManager.Data",
+        "projectPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.Data\\AzureKeyManager.Data.csproj",
+        "packagesPath": "C:\\Users\\suraj.aher\\.nuget\\packages\\",
+        "outputPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\suraj.aher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj": {
+                "projectPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.KeyVault": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
