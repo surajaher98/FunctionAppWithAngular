@@ -98,6 +98,7 @@ stages:
     steps:
     - task: FileTransform@2
       inputs:
+        folderPath: '$(System.DefaultWorkingDirectory)/**/*.zip'
         jsonTargetFiles: '$(angularWorkingDirectory)/src/assets/data/app.config.json'
     - task: NodeTool@0
       inputs:
