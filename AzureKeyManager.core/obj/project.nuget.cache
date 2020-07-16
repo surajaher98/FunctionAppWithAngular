@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dOKuWja69TUhyZqkN48QesEXUY5SX+H95O4uNvKtEbThOlGdsPzSC8rHy7yLLq0Wm5l0VFGNSCedZkb1wFf0cw==",
+  "dgSpecHash": "ElH0aG5FF6NQAIqLVkTIDhwpaGJoyPI0O+YhuTJM+597MdQCUjBOUXeaC0pPqTCswASgeRhXFz7AiOXrlwTxRA==",
   "success": true,
-  "projectFilePath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj",
+  "projectFilePath": "D:\\VipinFunctionApp\\AzureKeyManager.core\\AzureKeyManager.core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -5689,11 +5689,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.Data\\AzureKeyManager.Data.csproj",
+      "projectUniqueName": "D:\\VipinFunctionApp\\AzureKeyManager.Data\\AzureKeyManager.Data.csproj",
       "projectName": "AzureKeyManager.Data",
-      "projectPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.Data\\AzureKeyManager.Data.csproj",
+      "projectPath": "D:\\VipinFunctionApp\\AzureKeyManager.Data\\AzureKeyManager.Data.csproj",
       "packagesPath": "C:\\Users\\suraj.aher\\.nuget\\packages\\",
-      "outputPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.Data\\obj\\",
+      "outputPath": "D:\\VipinFunctionApp\\AzureKeyManager.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suraj.aher\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5708,8 +5708,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj": {
-              "projectPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj"
+            "D:\\VipinFunctionApp\\AzureKeyManager.core\\AzureKeyManager.core.csproj": {
+              "projectPath": "D:\\VipinFunctionApp\\AzureKeyManager.core\\AzureKeyManager.core.csproj"
             }
           }
         }

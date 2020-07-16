@@ -10,3 +10,15 @@ D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcorea
 D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.csproj.CopyComplete
 D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.dll
 D:\Vipin\ServerLess\AzureKeyVaultManager\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.pdb
+D:\VipinFunctionApp\AzureKeyManager.Data\bin\Debug\netcoreapp3.1\AzureKeyManager.Data.deps.json
+D:\VipinFunctionApp\AzureKeyManager.Data\bin\Debug\netcoreapp3.1\AzureKeyManager.Data.dll
+D:\VipinFunctionApp\AzureKeyManager.Data\bin\Debug\netcoreapp3.1\AzureKeyManager.Data.pdb
+D:\VipinFunctionApp\AzureKeyManager.Data\bin\Debug\netcoreapp3.1\AzureKeyManager.core.dll
+D:\VipinFunctionApp\AzureKeyManager.Data\bin\Debug\netcoreapp3.1\AzureKeyManager.core.pdb
+D:\VipinFunctionApp\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.csprojAssemblyReference.cache
+D:\VipinFunctionApp\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.csproj.CoreCompileInputs.cache
+D:\VipinFunctionApp\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.AssemblyInfoInputs.cache
+D:\VipinFunctionApp\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.AssemblyInfo.cs
+D:\VipinFunctionApp\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.csproj.CopyComplete
+D:\VipinFunctionApp\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.dll
+D:\VipinFunctionApp\AzureKeyManager.Data\obj\Debug\netcoreapp3.1\AzureKeyManager.Data.pdb

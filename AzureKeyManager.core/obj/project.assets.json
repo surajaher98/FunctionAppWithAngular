@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj",
+      "projectUniqueName": "D:\\VipinFunctionApp\\AzureKeyManager.core\\AzureKeyManager.core.csproj",
       "projectName": "AzureKeyManager.core",
-      "projectPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\AzureKeyManager.core.csproj",
+      "projectPath": "D:\\VipinFunctionApp\\AzureKeyManager.core\\AzureKeyManager.core.csproj",
       "packagesPath": "C:\\Users\\suraj.aher\\.nuget\\packages\\",
-      "outputPath": "D:\\Vipin\\ServerLess\\AzureKeyVaultManager\\AzureKeyManager.core\\obj\\",
+      "outputPath": "D:\\VipinFunctionApp\\AzureKeyManager.core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suraj.aher\\AppData\\Roaming\\NuGet\\NuGet.Config",
