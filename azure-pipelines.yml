@@ -96,10 +96,12 @@ stages:
     pool:
       vmImage: windows-latest
     steps:
-    - task: FileTransform@2
+    - task: FileTransform@1
+      displayName: 'File Transform: '
       inputs:
-        folderPath: '$(System.angularWorkingDirectory)'
-        jsonTargetFiles: '**/assets/data/app.config.json'
+        folderPath: AzureWeb/src/assets/data
+        fileType: json
+        targetFiles: /app.config.json
     - task: NodeTool@0
       inputs:
         versionSpec: 10.x
