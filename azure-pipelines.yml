@@ -99,7 +99,7 @@ stages:
     - task: FileTransform@1
       displayName: 'File Transform: '
       inputs:
-        folderPath: AzureWeb/src/assets/data
+        folderPath: $(angularWorkingDirectory)/src/assets/data
         fileType: json
         targetFiles: /app.config.json
     - task: NodeTool@0
