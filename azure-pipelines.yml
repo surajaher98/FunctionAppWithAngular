@@ -109,7 +109,7 @@ stages:
       inputs:
         script: |
           set baseApiUrl
-          echo ##vso[task.setvariable variable=baseApiUrl]myvalue
+          echo ##vso[task.setvariable variable=configuration.baseApiUrl]myvalue
 
     - task: NodeTool@0
       inputs:
