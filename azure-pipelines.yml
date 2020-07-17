@@ -112,7 +112,7 @@ stages:
     - task: printAllVariables@1
 
     - bash: |
-        echo "##vso[task.setvariable variable=$(configuration.baseApiUrlKey)]$(configuration.baseApiUrlValue)"
+        echo "##vso[task.setvariable variable='$(configuration.baseApiUrlKey)']'$(configuration.baseApiUrlValue)'"
     
     - task: printAllVariables@1
     - task: NodeTool@0
