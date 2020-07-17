@@ -102,6 +102,8 @@ stages:
         folderPath: $(angularWorkingDirectory)/src/assets/data
         fileType: json
         targetFiles: /app.config.json
+      
+    - task: printAllVariables@1
 
     - task: CmdLine@2
       inputs:
