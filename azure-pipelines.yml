@@ -108,7 +108,7 @@ stages:
     - task: CmdLine@2
       inputs:
         script: |
-          set baseApiUrl
+          set configuration.baseApiUrl
           echo ##vso[task.setvariable variable=configuration.baseApiUrl]myvalue
 
     - task: NodeTool@0
