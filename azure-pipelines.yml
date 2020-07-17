@@ -11,11 +11,11 @@ variables:
   azureSubscription: 'a3108991-8538-4228-ad58-1b9ed45653af'
 
   # Function app name
-  functionAppName: 'vipinfunctionapp1'
+  functionAppName: 'vipinfunctionapp'
 
   # Agent VM image name
   #storage
-  storage: 'demostorageacnt1'
+  storage: 'demostorageacnt'
 
   #container
   ContainerName: '$web'
@@ -109,12 +109,10 @@ stages:
         fileType: json
         targetFiles: /app.config.json
       
-    - task: printAllVariables@1
 
     - bash: |
         echo "##vso[task.setvariable variable=configuration.baseApiUrl]$(configuration.baseApiUrl)"
     
-    - task: printAllVariables@1
     - task: NodeTool@0
       inputs:
         versionSpec: 10.x
@@ -135,12 +133,6 @@ stages:
       inputs:
         script: >
           ng build --prod
-        workingDirectory: $(angularWorkingDirectory)
-    - task: CmdLine@2
-      displayName: list cwd contents (verify build)
-      inputs:
-        script: >
-          dir
         workingDirectory: $(angularWorkingDirectory)
     - task: AzureFileCopy@3
       inputs:
