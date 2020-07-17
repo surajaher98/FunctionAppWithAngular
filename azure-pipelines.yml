@@ -29,6 +29,12 @@ variables:
   # Working Directory for Angular
   angularWorkingDirectory: '$(System.DefaultWorkingDirectory)/AzureWeb'
 
+  #Setting the configuration.baseApiUrl variables key
+  configuration.baseApiUrlKey: 'configuration.baseApiUrl' 
+
+  #Setting the configuration.baseApiUrlValue variables key
+  configuration.baseApiUrlValue: 'https://vipinfunctionapp.azurewebsites.net' 
+
 stages:
 # - stage: Build
 #   displayName: Build stage
@@ -105,13 +111,8 @@ stages:
       
     - task: printAllVariables@1
 
-    # - task: CmdLine@2
-    #   inputs:
-    #     script: |
-    #       set configuration.baseApiUrl
-    #       echo ##vso[task.setvariable variable=configuration.baseApiUrl]myvalue
     - bash: |
-        echo "##vso[task.setvariable variable=configuration.baseApiUrl]crushed tomatoes"
+        echo "##vso[task.setvariable variable=$(configuration.baseApiUrlKey)]$(configuration.baseApiUrlValue)"
     
     - task: printAllVariables@1
     - task: NodeTool@0
