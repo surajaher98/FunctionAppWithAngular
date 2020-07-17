@@ -105,11 +105,13 @@ stages:
       
     - task: printAllVariables@1
 
-    - task: CmdLine@2
-      inputs:
-        script: |
-          set configuration.baseApiUrl
-          echo ##vso[task.setvariable variable=configuration.baseApiUrl]myvalue
+    # - task: CmdLine@2
+    #   inputs:
+    #     script: |
+    #       set configuration.baseApiUrl
+    #       echo ##vso[task.setvariable variable=configuration.baseApiUrl]myvalue
+    - bash: |
+        echo "##vso[task.setvariable variable=configuration.baseApiUrl]crushed tomatoes"
 
     - task: NodeTool@0
       inputs:
