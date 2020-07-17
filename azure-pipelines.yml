@@ -11,11 +11,11 @@ variables:
   azureSubscription: 'a3108991-8538-4228-ad58-1b9ed45653af'
 
   # Function app name
-  functionAppName: 'vipinfunctionapp'
+  functionAppName: 'vipinfunctionapp1'
 
   # Agent VM image name
   #storage
-  storage: 'demostorageacnt'
+  storage: 'demostorageacnt1'
 
   #container
   ContainerName: '$web'
@@ -33,68 +33,68 @@ variables:
   # configuration.baseApiUrlKey: 'configuration.baseApiUrl' 
 
   #Setting the configuration.baseApiUrlValue variables key
-  configuration.baseApiUrl: 'https://vipinfunctionapp.azurewebsites.net1' 
+  configuration.baseApiUrl: 'https://vipinfunctionapp.azurewebsites.net' 
 
 stages:
-# - stage: Build
-#   displayName: Build stage
+- stage: Build
+  displayName: Build stage
 
-#   jobs:
-#   - job: Build
-#     displayName: Build
-#     pool:
-#       vmImage: $(vmImageName)
-#     steps:
-#     - task: NuGetCommand@2
-#       inputs:
-#         command: 'restore'
-#         restoreSolution: '**/*.sln'
-#         feedsToUse: 'select'
-#     - task: DotNetCoreCLI@2
-#       displayName: Build
-#       inputs:
-#         command: 'build'
-#         projects: |
-#           $(functionAppworkingDirectory)/*.csproj
-#         arguments: --output $(functionAppworkingDirectory)/publish_output --configuration Release
+  jobs:
+  - job: Build
+    displayName: Build
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - task: NuGetCommand@2
+      inputs:
+        command: 'restore'
+        restoreSolution: '**/*.sln'
+        feedsToUse: 'select'
+    - task: DotNetCoreCLI@2
+      displayName: Build
+      inputs:
+        command: 'build'
+        projects: |
+          $(functionAppworkingDirectory)/*.csproj
+        arguments: --output $(functionAppworkingDirectory)/publish_output --configuration Release
 
-#     - task: ArchiveFiles@2
-#       displayName: 'Archive files'
-#       inputs:
-#         rootFolderOrFile: '$(functionAppworkingDirectory)/publish_output'
-#         includeRootFolder: false
-#         archiveType: zip
-#         archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-#         replaceExistingArchive: true
+    - task: ArchiveFiles@2
+      displayName: 'Archive files'
+      inputs:
+        rootFolderOrFile: '$(functionAppworkingDirectory)/publish_output'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
 
-#     - publish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-#       artifact: drop
+    - publish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+      artifact: drop
 
-# 
-# - stage: Deploy
-#   displayName: Deploy stage
-#   dependsOn: Build
-#   condition: succeeded()
 
-#   jobs:
-#   - deployment: Deploy
-#     displayName: Deploy
-#     environment: 'development'
-#     pool:
-#       vmImage: $(vmImageName)
+- stage: Deploy
+  displayName: Deploy stage
+  dependsOn: Build
+  condition: succeeded()
 
-#     strategy:
-#       runOnce:
-#         deploy:
+  jobs:
+  - deployment: Deploy
+    displayName: Deploy
+    environment: 'development'
+    pool:
+      vmImage: $(vmImageName)
 
-#           steps:
-#           - task: AzureFunctionApp@1
-#             displayName: 'Azure functions app deploy'
-#             inputs:
-#               azureSubscription: '$(azureSubscription)'
-#               appType: functionApp
-#               appName: $(functionAppName)
-#               package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
+    strategy:
+      runOnce:
+        deploy:
+
+          steps:
+          - task: AzureFunctionApp@1
+            displayName: 'Azure functions app deploy'
+            inputs:
+              azureSubscription: '$(azureSubscription)'
+              appType: functionApp
+              appName: $(functionAppName)
+              package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
 
 - stage: Angular
   jobs:
