@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'f38a36f3-2ade-4baa-8c5a-0ef4ced220df'
+  azureSubscription: 'AzurePortal'
 
   # Function app name
   functionAppName: 'vipinfunctionapp'
